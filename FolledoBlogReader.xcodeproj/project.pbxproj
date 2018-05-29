@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7FD5FD20A4F3F500320A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FD5FC20A4F3F500320A69 /* AppDelegate.swift */; };
+		CD7FD60020A4F3F500320A69 /* FolledoBlogReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD7FD5FE20A4F3F500320A69 /* FolledoBlogReader.xcdatamodeld */; };
+		CD7FD60220A4F3F500320A69 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FD60120A4F3F500320A69 /* MasterViewController.swift */; };
+		CD7FD60420A4F3F500320A69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FD60320A4F3F500320A69 /* DetailViewController.swift */; };
+		CD7FD60720A4F3F500320A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7FD60520A4F3F500320A69 /* Main.storyboard */; };
+		CD7FD60920A4F3FF00320A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7FD60820A4F3FF00320A69 /* Assets.xcassets */; };
+		CD7FD60C20A4F3FF00320A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7FD60A20A4F3FF00320A69 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD7FD5F920A4F3F500320A69 /* FolledoBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolledoBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7FD5FC20A4F3F500320A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7FD5FF20A4F3F500320A69 /* FolledoBlogReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolledoBlogReader.xcdatamodel; sourceTree = "<group>"; };
+		CD7FD60120A4F3F500320A69 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CD7FD60320A4F3F500320A69 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CD7FD60620A4F3F500320A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7FD60820A4F3FF00320A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7FD60B20A4F3FF00320A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7FD60D20A4F3FF00320A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7FD5F620A4F3F500320A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7FD5F020A4F3F400320A69 = {
+			isa = PBXGroup;
+			children = (
+				CD7FD5FB20A4F3F500320A69 /* FolledoBlogReader */,
+				CD7FD5FA20A4F3F500320A69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7FD5FA20A4F3F500320A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7FD5F920A4F3F500320A69 /* FolledoBlogReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7FD5FB20A4F3F500320A69 /* FolledoBlogReader */ = {
+			isa = PBXGroup;
+			children = (
+				CD7FD5FC20A4F3F500320A69 /* AppDelegate.swift */,
+				CD7FD60120A4F3F500320A69 /* MasterViewController.swift */,
+				CD7FD60320A4F3F500320A69 /* DetailViewController.swift */,
+				CD7FD60520A4F3F500320A69 /* Main.storyboard */,
+				CD7FD60820A4F3FF00320A69 /* Assets.xcassets */,
+				CD7FD60A20A4F3FF00320A69 /* LaunchScreen.storyboard */,
+				CD7FD60D20A4F3FF00320A69 /* Info.plist */,
+				CD7FD5FE20A4F3F500320A69 /* FolledoBlogReader.xcdatamodeld */,
+			);
+			path = FolledoBlogReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7FD5F820A4F3F500320A69 /* FolledoBlogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7FD61020A4F3FF00320A69 /* Build configuration list for PBXNativeTarget "FolledoBlogReader" */;
+			buildPhases = (
+				CD7FD5F520A4F3F500320A69 /* Sources */,
+				CD7FD5F620A4F3F500320A69 /* Frameworks */,
+				CD7FD5F720A4F3F500320A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolledoBlogReader;
+			productName = FolledoBlogReader;
+			productReference = CD7FD5F920A4F3F500320A69 /* FolledoBlogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7FD5F120A4F3F400320A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Samuel Folledo";
+				TargetAttributes = {
+					CD7FD5F820A4F3F500320A69 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = CD7FD5F420A4F3F400320A69 /* Build configuration list for PBXProject "FolledoBlogReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7FD5F020A4F3F400320A69;
+			productRefGroup = CD7FD5FA20A4F3F500320A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7FD5F820A4F3F500320A69 /* FolledoBlogReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7FD5F720A4F3F500320A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7FD60C20A4F3FF00320A69 /* LaunchScreen.storyboard in Resources */,
+				CD7FD60920A4F3FF00320A69 /* Assets.xcassets in Resources */,
+				CD7FD60720A4F3F500320A69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7FD5F520A4F3F500320A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7FD60020A4F3F500320A69 /* FolledoBlogReader.xcdatamodeld in Sources */,
+				CD7FD5FD20A4F3F500320A69 /* AppDelegate.swift in Sources */,
+				CD7FD60220A4F3F500320A69 /* MasterViewController.swift in Sources */,
+				CD7FD60420A4F3F500320A69 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD7FD60520A4F3F500320A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7FD60620A4F3F500320A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7FD60A20A4F3FF00320A69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7FD60B20A4F3FF00320A69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7FD60E20A4F3FF00320A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD7FD60F20A4F3FF00320A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7FD61120A4F3FF00320A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoBlogReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoBlogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7FD61220A4F3FF00320A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoBlogReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoBlogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7FD5F420A4F3F400320A69 /* Build configuration list for PBXProject "FolledoBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7FD60E20A4F3FF00320A69 /* Debug */,
+				CD7FD60F20A4F3FF00320A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7FD61020A4F3FF00320A69 /* Build configuration list for PBXNativeTarget "FolledoBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7FD61120A4F3FF00320A69 /* Debug */,
+				CD7FD61220A4F3FF00320A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD7FD5FE20A4F3F500320A69 /* FolledoBlogReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD7FD5FF20A4F3F500320A69 /* FolledoBlogReader.xcdatamodel */,
+			);
+			currentVersion = CD7FD5FF20A4F3F500320A69 /* FolledoBlogReader.xcdatamodel */;
+			path = FolledoBlogReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD7FD5F120A4F3F400320A69 /* Project object */;
+}
